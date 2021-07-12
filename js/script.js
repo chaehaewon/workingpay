@@ -30,4 +30,7 @@ $(function(){
     });
 
 
+    var myFullpage = new fullpage('#fullpage', {
+        verticalCentered: true,
+    });
 });

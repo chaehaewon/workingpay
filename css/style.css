@@ -1,9 +1,26 @@
 @charset "utf-8";
-@import "css/reset.css";
+@import "reset.css";
+@import "header.css";
+/* @import "footer.css"; */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @font-face {
-    font-family: 'Recipekorea';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 a{ color:#090909; }
+
+body{ font-family:'Noto Sans KR', '맑은 고딕', sans-serif; font-size:14px; color:#090909; }
+
+
+.content1{ position:relative; background:url("../image/service_info.jpg") no-repeat; background-size:cover;}
+.hand{ position:absolute; left:208px; bottom:0px; width:1015px; height:784px; animation:handMove 0.5s ease 0s; }
+.hand>img{ width:100%; height:auto; }
+/*  hand animation  */
+@keyframes handMove{
+    0% {left:190px; bottom:-20px;}
+    100% {left:208px; bottom:0px;}
+}
+
+.store{ position: }
