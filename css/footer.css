@@ -1,0 +1,166 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/* @import "reset.css"; */
+
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    padding: 15px 0;
+    text-align: center;
+    background: #000000cf;
+    color: rgb(168, 168, 168);
+    font-family: 'Noto Sans KR', sans-serif;
+} 
+
+#footer .topimage {
+    text-decoration: none;
+    color: white;
+    width: 25px;
+    height: 34px;
+    float: right;
+    padding-right: 140px;
+    padding-top: 50px;
+}
+
+/* @font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+#footer .footer_top {
+    width: 1200px;
+    height: 120px;
+    margin: 0px auto;
+}
+
+#footer .footer_top .footer_logo {
+    /* background: url(../image/workingpaylogo_2.png) no-repeat; */
+    margin-top: -20px;
+    float: left;
+    width: 150px;
+    height: 30px;
+}
+
+#footer .footer_top .footer_logo img {
+    max-width: 150px;
+    height: 150px;
+    padding-left: 15px;
+}
+
+#footer .footer_top .footer_text {
+    font-size: 12px;
+    float: left;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* border-right: 1px solid rgb(179, 176, 176); */
+}
+
+#footer .footer_top .footer_text p {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    /* margin-right: 100px; */
+}
+
+#footer .footer_top .footer_sns {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+#footer .footer_top .footer_sns ul {
+    display: flex;
+    height: 30px;
+    margin: 22px 0;
+    width: 120px;
+    justify-content: space-around;
+    float: right;
+}
+
+#footer .footer_top .footer_sns ul li {
+    list-style: none;
+}
+
+#footer .footer_top .footer_sns ul li .facebook {
+    background: url(../image/sns30x30.png) no-repeat;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-position: 0px 0px;
+}
+
+#footer .footer_top .footer_sns ul li .instagram {
+    background: url(../image/sns30x30.png) no-repeat;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-position: 0px -75px;
+}
+
+#footer .footer_top .footer_sns ul li .youtube {
+    background: url(../image/sns30x30.png) no-repeat;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-position: 0px -150px;
+}
+
+#footer .footer_top .footer_sns .footer_copyright {
+    width: 320px;
+    font-size: 12px;
+    float: right;
+    text-align: left;
+    /* margin-right: 100px; */
+    /* margin-top: 65px; */
+    /* margin-right: 150px; */
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#footer .footer_top .footer_sns .footer_copyright p {
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+#footer .footer_bottom {
+    width: 1200px;
+    padding-top: 10px;
+    margin: 0px auto;
+    border-top: 1px solid white;
+}
+
+#footer .footer_bottom .footer_menu {
+    width: 1200px;
+    margin: 0px auto;
+    overflow: hidden;
+    font-size: 14px;
+    display: flex;
+}
+
+#footer .footer_bottom .footer_menu ul {
+    float: left;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 700px;
+    list-style: none;
+    text-align: center;
+    padding-left: 230px;
+}
+
+#footer .footer_bottom .footer_menu ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+#footer .footer_bottom .footer_menu ul li a {
+    text-decoration: none;
+    color: rgb(219, 216, 216);
+}
+
