@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* @import "css/header.css"; */
+/* @import "css/footer.css"; */
+@import "reset.css";
+
+
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css') ;
+
+
+body{ font-family:"NanumSquare","맑은 고딕",sans-serif; font-size:14px; color:#070707; /*background:#f1f1f1; */position:relative; }
+
+#main_container{ width:1200px; margin:150px auto;}
+#main_container h2{ text-align:center; }
+#main_container .date{ text-align:right; }
+#main_container ul{ list-style:none; margin:30px 0px;}
+#main_container .main>li{ margin-bottom:30px; }
+#main_container ol{ list-style: decimal; }
+#main_container .sub{ list-style:lower-roman;  }
+#main_container .tit_wrap{ margin-bottom:60px; }
