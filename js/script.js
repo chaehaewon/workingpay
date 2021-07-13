@@ -29,8 +29,14 @@ $(function(){
         mouseoverstate = false;
     });
 
-
-    var myFullpage = new fullpage('#fullpage', {
+    $('#fullpage').fullpage({
+        scrollHorizontally:true,
         verticalCentered: true,
     });
+
+    var scoller = $('.hand');
+    if($(document).scrollTop()==0){
+        scoller.addClass('top');
+    }else{ scoller.removeClass('top'); }
+
 });

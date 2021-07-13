@@ -12,39 +12,31 @@
     <meta name="robots" content="noindex,nofollow" />
     <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
     <link rel="icon" href="image/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/jquery.fullpage.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
-    <script src="js/easings.min.js" type="text/javascript"></script>
-    <script src="js/jquery.fullpage.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="js/scrolloverflow.min.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="js/jquery.fullpage.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/jquery.fullPage.css" type="text/css">
     <script src="js/script.js" type="text/javascript"></script>
 </head>
 
 <body>
     <? include "header.html" ?>
-    <div id="container">
-        <div class="section" id="section0">
-            <div class="content1 ">
-                <div class="hand">
-                    <img src="image/service_info_hand.png" alt="">
-                </div>
-                <div class="store">
-                    <a href="#" class="store"><span class="icon"></span>Play Store</a>
-                    <a href="#" class="store"><span class="icon"></span>App Store</a>   
-                </div>
-        </div>
-        <div class="section fp-auto-height" id="section1">
-            <div class="content">
-            <h1>Section 2</h1>
-                <p>Scroll down to see auto-height sections</p>
-        </div>
-        </div>
-        <div class="section fp-auto-height" id="section2">
-            <div class="content">
-            <h1>Section 3</h1>
-            <p>Scroll down to see auto-height sections</p>
+    <div id="fullpage">
+        <div class="section sect01" id="sect1">
+            <img src="image/service_info.jpg" alt="workingpay 서비스 소개">
+            <div class="hand">
+                <img src="image/service_info_hand.png" alt="">
+            </div>
+            <div class="store">
+                <a href="#"><span class="icon"></span>Play Store</a>
+                <a href="#"><span class="icon"></span>App Store</a>
             </div>
         </div>
+        <div class="section sect02" id="sect2">section02</div>
+        <div class="section sect03" id="sect3">section03</div>
     </div>
 </body>
 

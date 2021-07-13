@@ -14,13 +14,19 @@ a{ color:#090909; }
 body{ font-family:'Noto Sans KR', '맑은 고딕', sans-serif; font-size:14px; color:#090909; }
 
 
-.content1{ position:relative; background:url("../image/service_info.jpg") no-repeat; background-size:cover;}
-.hand{ position:absolute; left:208px; bottom:0px; width:1015px; height:784px; animation:handMove 0.5s ease 0s; }
-.hand>img{ width:100%; height:auto; }
-/*  hand animation  */
-@keyframes handMove{
-    0% {left:190px; bottom:-20px;}
-    100% {left:208px; bottom:0px;}
-}
+#sect1{ position:relative; }
+.hand{ position:absolute; right:25px; bottom:0px; width:978px; height:780px; /* animation:handMove 0.5s ease 0s; */  }
 
-.store{ position: }
+.hand.top { transform:translateY(0%); opacity:1; }
+.hand>img{ width:100%; height:auto; width:978px; height:780px; position:absolute; right:25px; bottom:0px; transform:translateY(100%); opacity:0; transition:all 0.5s; }
+/*  hand animation  */
+/* @keyframes handMove{
+    0% {right:25px; bottom:0px;}
+    100% {right:30px; bottom:10px;}
+} */
+
+.store{ position:absolute; left:50%; bottom:14%; transform:translateX(-50%); width:400px; background:rgba(0,0,0,0.8); height:60px; border-radius: 40px;}
+.store a{ display:block; color:#fff; line-height:40px; width:200px; height:40px; margin-top:10px; float:left; text-align:center; font-size:18px; }
+.store a:first-child{ border-right:1px solid #fff; box-sizing:border-box; }
+.store .icon{ width:17px; height:18px; display:inline-block; background:url("../image/store-icon.png") no-repeat; margin-right:10px;}
+.store a:nth-child(2) .icon{ background-position: 0 -79px; width:15px; height:19px; }
