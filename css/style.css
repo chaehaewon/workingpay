@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "reset.css";
 @import "header.css";
+@import "footer.css";
 /* @import "footer.css"; */
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @font-face {
