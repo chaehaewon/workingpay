@@ -1,0 +1,277 @@
+@charset "utf-8";
+@import "../../css/header.css";
+@import "../../css/footer.css";
+@import "../css/reset.css";
+
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* #main_container {
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+
+} */
+
+a {
+    color: #090909;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    color: #090909;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/*#sect0>.myContent{ height:110px; }*/
+#section4>#footer {
+    height: 230px;
+}
+
+#header {
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    z-index: 9;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 20px 0 0 0;
+}
+
+#header {
+    top: 0px;
+}
+
+#footer {
+    bottom: 0px;
+}
+
+
+.section {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+}
+
+#section1 {
+    position: relative;
+    background: url("../image/workingpay-bi-background.png") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hand {
+    position: absolute;
+    right: 25px;
+    bottom: 0px;
+    width: 978px;
+    height: 780px;
+    /* animation: handMove 0.5s ease 0s; */
+}
+
+/*.hand.scrolltop>img { transform:translateY(0%); opacity:1; }*/
+.hand>img {
+    width: 978px;
+    height: 780px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    /*transform:translateY(0%); opacity:0; */
+    transition: all 0.5s;
+}
+
+/*.hand .had_img{ width:978px; height:780px; background:url("../image/service_info_hand.png") no-repeat; }*/
+/*  hand animation  */
+/* @keyframes handMove {
+    0% {
+        right: 0px;
+        bottom: -10px;
+    }
+
+    100% {
+        right: 30px;
+        bottom: 0px;
+    }
+} */
+
+.store {
+    position: absolute;
+    left: 50%;
+    bottom: 14%;
+    transform: translateX(-50%);
+    width: 400px;
+    background: rgba(0, 0, 0, 0.8);
+    height: 60px;
+    border-radius: 40px;
+}
+
+.store a {
+    display: block;
+    color: #fff;
+    line-height: 40px;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+}
+
+.store a:first-child {
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+.store .icon {
+    width: 17px;
+    height: 18px;
+    display: inline-block;
+    background: url("") no-repeat;
+    margin-right: 10px;
+}
+
+.store a:nth-child(2) .icon {
+    background-position: 0 -79px;
+    width: 15px;
+    height: 19px;
+}
+
+/* more view css */
+
+/* .m_view {
+    position: absolute;
+    left: 11%;
+    bottom: 22%;
+}
+
+.m_view .arrow {
+    background: url("") 0px 2px no-repeat;
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+    margin-left: 40px;
+}
+
+.m_view a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    border: 3px solid #fff;
+    line-height: 50px;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 20px;
+    transition: all 0.4s;
+    font-size: 18px;
+}
+
+.m_view a:hover .arrow {
+    animation: arwM 0.4s ease 0s;
+} */
+
+/* more view animation */
+/* @keyframes arwM {
+    0% {
+        background-position: -35px 2px;
+    }
+
+    100% {
+        background-position: 0px 2px;
+    }
+
+}
+
+@keyframes arwM_m {
+    0% {
+        background-position: -35px -58px;
+    }
+
+    100% {
+        background-position: 0px -58px;
+    }
+} */
+
+
+/* section2,3 moreview hover color */
+#section2 .m_view a:hover {
+    background: #fff;
+    color: #55c5d0;
+}
+
+#section2 .m_view a:hover .arrow {
+    animation: arwM_m 0.4s ease 0s;
+    background-position: 0px -58px;
+}
+
+
+#section2 {
+    position: relative;
+    overflow: hidden;
+    background: url("") no-repeat;
+    background-size: cover;
+}
+
+#section2 .m_view {
+    position: absolute;
+    left: 11%;
+    bottom: 28%;
+}
+
+#fp-nav ul li .fp-tooltip.right {
+    color: #7059a6;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: #5dc6cc;
+}
+
+#footer {
+    height: 230px;
+}
+
+.main_subject, .sub_subject_1, .sub_subject_2 {
+    text-align: center;
+}
+
+.main_subject {
+    font-size: 80px;
+    width: 800px;
+    margin: 0px auto;
+    color: #fff;
+}
+
+.sub_subject_1 {
+    font-size: 35px;
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 70px;
+    color: #fff;
+}
+
+.sub_subject_2 {
+    font-size: 35px;
+    width: 600px;
+    margin: 0px auto;
+    color: #fff;
+}
