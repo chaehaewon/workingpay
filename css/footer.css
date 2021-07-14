@@ -1,11 +1,8 @@
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-/* @import "reset.css"; */
+@import "reset.css";
 
-#footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+#main_footer {
     width: 100%;
     height: 200px;
     padding: 15px 0;
@@ -15,7 +12,11 @@
     font-family: 'Noto Sans KR', sans-serif;
 } 
 
-#footer .topimage {
+.topbutton {
+    position: fixed;
+}
+
+.topimage {
     text-decoration: none;
     color: white;
     width: 25px;
@@ -32,13 +33,13 @@
     font-style: normal;
 } */
 
-#footer .footer_top {
+#main_footer .footer_top {
     width: 1200px;
     height: 120px;
     margin: 0px auto;
 }
 
-#footer .footer_top .footer_logo {
+#main_footer .footer_top .footer_logo {
     /* background: url(../image/workingpaylogo_2.png) no-repeat; */
     margin-top: -20px;
     float: left;
@@ -46,13 +47,13 @@
     height: 30px;
 }
 
-#footer .footer_top .footer_logo img {
+#main_footer .footer_top .footer_logo img {
     max-width: 150px;
     height: 150px;
     padding-left: 15px;
 }
 
-#footer .footer_top .footer_text {
+#main_footer .footer_top .footer_text {
     font-size: 12px;
     float: left;
     text-align: left;
@@ -62,19 +63,19 @@
     /* border-right: 1px solid rgb(179, 176, 176); */
 }
 
-#footer .footer_top .footer_text p {
+#main_footer .footer_top .footer_text p {
     margin-top: 7px;
     margin-bottom: 5px;
     /* margin-right: 100px; */
 }
 
-#footer .footer_top .footer_sns {
+#main_footer .footer_top .footer_sns {
     width: 30px;
     height: 30px;
     float: right;
 }
 
-#footer .footer_top .footer_sns ul {
+#main_footer .footer_top .footer_sns ul {
     display: flex;
     height: 30px;
     margin: 22px 0;
@@ -83,11 +84,11 @@
     float: right;
 }
 
-#footer .footer_top .footer_sns ul li {
+#main_footer .footer_top .footer_sns ul li {
     list-style: none;
 }
 
-#footer .footer_top .footer_sns ul li .facebook {
+#main_footer .footer_top .footer_sns ul li .facebook {
     background: url(../image/sns30x30.png) no-repeat;
     display: block;
     width: 30px;
@@ -95,7 +96,7 @@
     background-position: 0px 0px;
 }
 
-#footer .footer_top .footer_sns ul li .instagram {
+#main_footer .footer_top .footer_sns ul li .instagram {
     background: url(../image/sns30x30.png) no-repeat;
     display: block;
     width: 30px;
@@ -103,7 +104,7 @@
     background-position: 0px -75px;
 }
 
-#footer .footer_top .footer_sns ul li .youtube {
+#main_footer .footer_top .footer_sns ul li .youtube {
     background: url(../image/sns30x30.png) no-repeat;
     display: block;
     width: 30px;
@@ -111,7 +112,7 @@
     background-position: 0px -150px;
 }
 
-#footer .footer_top .footer_sns .footer_copyright {
+#main_footer .footer_top .footer_sns .footer_copyright {
     width: 320px;
     font-size: 12px;
     float: right;
@@ -122,19 +123,19 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-#footer .footer_top .footer_sns .footer_copyright p {
+#main_footer .footer_top .footer_sns .footer_copyright p {
     margin-top: 7px;
     margin-bottom: 5px;
 }
 
-#footer .footer_bottom {
+#main_footer .footer_bottom {
     width: 1200px;
     padding-top: 10px;
     margin: 0px auto;
     border-top: 1px solid white;
 }
 
-#footer .footer_bottom .footer_menu {
+#main_footer .footer_bottom .footer_menu {
     width: 1200px;
     margin: 0px auto;
     overflow: hidden;
@@ -142,7 +143,7 @@
     display: flex;
 }
 
-#footer .footer_bottom .footer_menu ul {
+#main_footer .footer_bottom .footer_menu ul {
     float: left;
     height: 20px;
     display: flex;
@@ -154,12 +155,12 @@
     padding-left: 230px;
 }
 
-#footer .footer_bottom .footer_menu ul li {
+#main_footer .footer_bottom .footer_menu ul li {
     display: inline-block;
     text-align: center;
 }
 
-#footer .footer_bottom .footer_menu ul li a {
+#main_footer .footer_bottom .footer_menu ul li a {
     text-decoration: none;
     color: rgb(219, 216, 216);
 }

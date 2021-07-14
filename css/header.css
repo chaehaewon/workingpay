@@ -16,13 +16,14 @@
 }
 a{ color:#090909; }
 
-
 body{ font-family:'Noto Sans KR', '맑은 고딕', sans-serif; font-size:14px; color:#090909; }
 
-#header{ width:100%;  position:absolute; top:0px; left:0px; z-index:600; transition:all 0.4s;}
-#header .inner{ margin:0px auto; width:90%; height:70px;  border-bottom:1px solid #fff;  padding:20px 0;}
-#header h1{ width:201px; height:23px; text-indent:-9999em; float:left; margin: 25px 0 0 20px; }
-#header h1 a{ display:block; height:201px; height:23px; background:url("../image/logo_wrap.png") 0px 0px no-repeat;  }
+#main_header{ width:100%;  height: 110px; position:fixed; top:0px; left:0px; z-index:600; transition:all 0.4s;}
+#main_header .inner{ margin:0px auto; width:90%; height:70px;   }
+#main_header .iner_iner{ padding:20px 0; height:70px; border-bottom:1px solid #fff; }
+#main_header h1{ width:201px; height:23px; text-indent:-9999em; float:left; margin: 25px 0 0 20px; }
+#main_header h1 a{ display:block; height:201px; height:23px; background:url("../image/logo_wrap.png") 0px 0px no-repeat;  }
+
 
 #gnb{ width:600px; height:90px; float:left; margin-left:50px; position:relative;}
 #gnb ul{  display:flex; justify-content:space-around; margin-top:15px; height:40px; }
@@ -35,13 +36,14 @@ body{ font-family:'Noto Sans KR', '맑은 고딕', sans-serif; font-size:14px; c
 .arw{ display:inline-block; margin-left:6px; background:url("../image/com_arw.png") no-repeat; width:6px; height:10px; }
 .com:hover{ background:#88c7ed; box-shadow:3px 3px 3px 3px rgba(0,0,0,0.1); border:0px;}
 
-/*  header 고정 선언  */
-#header.top{ position:fixed; top:0px; z-index:600; background:#333; transition:all 0.4s;}
-#header.top .inner{ height:60px; padding:10px 0; border-bottom:0px; position:relative; }
-#header.top h1{ width:42px; height:27px; margin: 18px 0 0 60px; }
-#header.top h1 a{ width:42px; height:27px; background-position:0px -123px; }
-#header.top #gnb{ height:70px; position:absolute; top:10px; left:50%; transform:translateX(-50%); }
-#header.top #gnb ul a{ height:40px; line-height:40px; }
-#header.top #gnb ul{ height:40px; margin-top:10px;}
-#header.top .com{ margin-top: 10px; border:0px; font-size:16px;}
-#header.top .com:hover{ background:#88c7ed; box-shadow:none; }
+/*  main_header 고정 선언  */
+#main_header.top{ height:80px; position:fixed; top:0px; z-index:600; background:#333; transition:all 0.4s;}
+#main_header.top .inner{ height:80px; }
+#main_header.top .iner_iner{ height:60px; padding:10px 0; border-bottom:0px; position:relative; }
+#main_header.top h1{ width:42px; height:27px; margin: 18px 0 0 60px; }
+#main_header.top h1 a{ width:42px; height:27px; background-position:0px -123px; }
+#main_header.top #gnb{ height:70px; position:absolute; top:10px; left:50%; transform:translateX(-50%); }
+#main_header.top #gnb ul a{ height:40px; line-height:40px; }
+#main_header.top #gnb ul{ height:40px; margin-top:10px;}
+#main_header.top .com{ margin-top: 10px; border:0px; font-size:16px;}
+#main_header.top .com:hover{ background:#88c7ed; box-shadow:none; }
