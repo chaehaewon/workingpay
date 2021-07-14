@@ -19,6 +19,7 @@ a {
 
 #main_container {
     position: relative;
+    padding-top: 50px;
 }
 
 #main_container .cs {

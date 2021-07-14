@@ -15,11 +15,17 @@
     <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>
 
-    <!-- html include jQuery -->
+   <!-- html include jQuery -->
     <script type="text/javascript">
         $(document).ready(function(){
-            $("#header").get("../header.html")
-            $("#footer").get("../footer.html")
+            $("#header").load("../header.html")
+        });
+    </script>
+
+    <!-- html include jQuery  -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#footer").load("../footer.html")
         });
     </script>
 
