@@ -47,3 +47,5 @@ body{ font-family:'Noto Sans KR', '맑은 고딕', sans-serif; font-size:14px; c
 #main_header.top #gnb ul{ height:40px; margin-top:10px;}
 #main_header.top .com{ margin-top: 10px; border:0px; font-size:16px;}
 #main_header.top .com:hover{ background:#88c7ed; box-shadow:none; }
+
+/*.text{ height:2500px; }*/

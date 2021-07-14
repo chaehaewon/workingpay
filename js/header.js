@@ -1,4 +1,4 @@
-$(function () {
+$(function(){
     var scrollTopNum = 0; //변수선언은 밖에서
     var fixPosition = 1; //paseInt($('nav).css('top))  /  
     $(window).scroll(function () {
@@ -29,15 +29,4 @@ $(function () {
         }, 400);
         mouseoverstate = false;
     });
-    $('#fullpage').fullpage({
-       /*  scrollOverflow: true,
-		scrollOverflowReset: true,*/
-        /* verticalCentered: false, */
-        navigation: true,
-		navigationPosition: 'right',
-		/* navigationTooltips: ['service', 'worker service', 'manager service'],
-        css:false, */
-
-    });
-
 });
