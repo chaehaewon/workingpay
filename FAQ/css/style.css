@@ -19,6 +19,7 @@ a {
 
 #main_container {
     position: relative;
+    padding-top: 50px;
 }
 
 #main_container .cs {
@@ -67,9 +68,9 @@ a {
     margin-bottom: 30px;
 }
 
-.faq_list {
+/*.faq_list {
     pointer-events: none;
-}
+}*/
 
 .faq_list>p {
     font-size: 28px;
@@ -80,7 +81,7 @@ a {
 .faq_t {
     width: 1000px;
     overflow: hidden;
-    margin: 50px auto;
+    margin: 50px auto 150px;
     /*background:#ededed; */
     /* padding: 50px; */
     box-sizing: border-box;
@@ -164,118 +165,3 @@ li .anw {
     background: url("../image/cs_arow.png") no-repeat right center;
 }
 
-
-/* footer_start */
-#footer {
-    background: #333;
-    height: 200px;
-}
-
-#footer .footer_top {
-    height: 49px;
-    border-bottom: 1px solid #ededed;
-    width: 100%;
-}
-
-#footer .footer_top .footer_menu {
-    width: 1200px;
-    margin: 0px auto;
-    overflow: hidden;
-}
-
-#footer .footer_menu ul {
-    float: left;
-    height: 20px;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 15px;
-    width: 500px;
-}
-
-#footer .footer_menu ul a {
-    color: #ccc;
-    line-height: 20px;
-}
-
-#footer .footer_bottom {
-    width: 1200px;
-    margin: 0px auto;
-}
-
-#footer .footer_logo {
-    margin-top: 60px;
-    float: left;
-}
-
-#footer .text_wrap {
-    float: left;
-    margin: 48px 0 0 30px;
-    color: #ccc;
-}
-
-#footer .text_wrap p {
-    margin-bottom: 2px;
-}
-
-#footer .footer_right {
-    float: right;
-}
-
-#footer .sns {
-    float: right;
-}
-
-#footer .sns ul {
-    display: flex;
-    height: 30px;
-    margin: 22px 0;
-    width: 120px;
-    justify-content: space-around;
-}
-
-#footer .sns ul a {
-    display: block;
-    width: 30px;
-    height: 30px;
-    background: url("../../image/sns30x30.png") no-repeat;
-    text-indent: -9999em;
-}
-
-#footer .sns ul .face {
-    background-position: 0px 0px;
-}
-
-#footer .sns ul .inst {
-    background-position: 0px -75px;
-}
-
-#footer .sns ul .you {
-    background-position: 0px -150px;
-}
-
-#footer .store {
-    clear: right;
-    height: 40px;
-    display: flex;
-    width: 260px;
-    justify-content: space-around;
-}
-
-#footer .store a {
-    display: block;
-    width: 120px;
-    height: 40px;
-    border-radius: 20px;
-    border: 1px solid #ccc;
-    line-height: 40px;
-    text-align: center;
-    color: #ccc;
-    transition: all 0.4s;
-}
-
-#footer .store a:hover {
-    background: #ccc;
-    color: #070707;
-}
-
-/* footer_end */
