@@ -3,7 +3,7 @@
 
 <head>
     <title>WorkingPay</title>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description" content="contact form example">
     <meta name="keywords" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -89,7 +89,7 @@
                         <li class="bname">
                             <label>
                                 사업장명&#42;
-                                <input type="text" id="bname" name="bname" placeholder="사업장명을 입력하세요."    required name ="company_name">
+                                <input type="text" id="bname" name="bname" placeholder="사업장명을 입력하세요." required name ="bname">
                                 <!-- onfocus="this.placeholder=''" -->
                                 <!-- onblur="this.placeholder='사업장명을 입력하세요.'" -->
                             </label>
@@ -97,7 +97,7 @@
                            <li class="bnum">
                             <label>
                                 사업자번호&#42;
-                                <input type="text" id="bnum" name="bnum" placeholder="사업자 번호를 입력하세요" onfocus="this.placeholder='' " onblur="this.placeholder='사업자 번호를 입력하세요.'" maxlength="10" required_name="company_num">
+                                <input type="text" id="bnum" name="bnum" placeholder="사업자 번호를 입력하세요" onfocus="this.placeholder='' " onblur="this.placeholder='사업자 번호를 입력하세요.'" maxlength="10" required_name="bnum">
                             </label>
 
                             <!-- required oninvalid="this.setCustomValidity('사업자번호를 입력하세요')"  -->
@@ -114,11 +114,8 @@
                     </ul>
                     <!-- <button type="submit" onclick="check()" value="submit" name="submit" >전송</button> -->
                     <input type="submit" value="전송" name="submit"/>
-
-                    
                 </fieldset>
             </form>
-            
         </section>
     </div>
 </body>
