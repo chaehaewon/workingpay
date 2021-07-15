@@ -2,118 +2,23 @@
 @import "../../../css/reset.css";
 @import "../../../css/header.css";
 @import "../../../css/footer.css";
-@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css') ;
 
-body {
-    font-family: "NanumSquare", "맑은 고딕", sans-serif;
-    font-size: 14px;
-    color: #070707;
-    /*background:#f1f1f1; */
-    position: relative;
-}
+body{ font-family:"NanumSquare","맑은 고딕",sans-serif; font-size:14px; color:#070707; /*background:#f1f1f1; */position:relative; }
+a{ color:#070707;  }
 
-a {
-    color: #070707;
-}
-
-#main_container {
-    position: relative;
-    padding-top: 50px;
-}
-
-#main_container .banner_img {
-    position: relative;
-    width: 1920px;
-    height: auto;
-    margin-top: 100px;
-}
-
-#main_container .faq_t {
-    width: 1200px;
-    overflow: hidden;
-    margin: 50px auto;
-    /*background:#ededed; */
-    padding: 50px;
-    box-sizing: border-box;
-}
-
-#main_container .faq_t li {
-    /*height:50px;*/
-    padding-left: 30px;
-    background: #ededed;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    transition: all 0.3s;
-}
-
-#main_container .faq_t li:hover {
-    background: #61c6c3;
-}
-
-#main_container .faq_t li:hover a {
-    color: #fff;
-}
-
-#main_container .faq_t a {
-    display: block;
-    width: 1090px;
-    height: 80px;
-    line-height: 80px;
-    font-size: 20px;
-    font-weight: bold;
-    transition: all 0.3s;
-}
-
-#main_container .faq_t li a>.str {
-    font-size: 30px;
-    font-weight: bold;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-#main_container li .anw {
-    border-top: 1px solid #aaa;
-    display: none;
-    /*height:80px;*/
-    overflow: hidden;
-    padding: 30px 10px;
-}
-
-#main_container .faq_t .anw>.str {
-    font-size: 20px;
-    color: #222;
-    display: block;
-    margin-left: 30px;
-    float: left;
-    height: 25px;
-    font-weight: bold;
-}
-
-#main_container li p {
-    width: 90%;
-    font-size: 18px;
-    line-height: 1.5em;
-    float: left;
-    margin-left: 16px;
-}
-
-#main_container li p .ol {
-    display: inline-block;
-}
-
-#main_container .faq_t .anw>div {
-    float: left;
-    width: 90%;
-}
-
-#main_container .faq_t .anw .su_l {
-    margin-left: 34px;
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 4px;
-}
-
-#main_container .sma {
-    font-size: 14px;
-    color: #555;
-}
+#main_container{ position:relative; padding-top:100px;}
+#main_container .banner_img{ position:relative; width:1920px; height:auto;  margin-top:100px; }
+#main_container .faq_t{ width:1200px; overflow:hidden; margin:50px auto; /*background:#ededed; */padding:50px; box-sizing:border-box;}
+#main_container .faq_t li{ /*height:50px;*/ padding-left:30px;background:#ededed; border-radius: 20px; margin-bottom:20px; transition:all 0.3s; }
+#main_container .faq_t li:hover { background:#61c6c3; }
+#main_container .faq_t li:hover a{ color:#fff; }
+#main_container .faq_t a{ display:block; width:1090px; height:80px; line-height:80px; font-size:20px; font-weight:bold; transition:all 0.3s; }
+#main_container .faq_t li a>.str{ font-size:30px; font-weight:bold; display:inline-block; margin-right:10px; }
+#main_container li .anw{ border-top:1px solid #aaa; display:none; /*height:80px;*/ overflow:hidden; padding:30px 10px;  }
+#main_container .faq_t .anw>.str{ font-size:20px; color:#222; display:block; margin-left:30px; float:left; height:25px; font-weight:bold; }
+#main_container li p{ width:90%; font-size:18px;  line-height:1.5em;  float:left; margin-left:16px;}
+#main_container li p .ol{ display: inline-block;  }
+#main_container .faq_t .anw>div{ float:left; width:90%; }
+#main_container .faq_t .anw .su_l{ margin-left:34px; font-size:16px; color:#333; margin-bottom:4px;}
+#main_container .sma{ font-size:14px; color:#555; }

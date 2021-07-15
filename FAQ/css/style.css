@@ -11,6 +11,7 @@ body {
     color: #070707;
     /*background:#f1f1f1; */
     position: relative;
+    
 }
 
 a {
@@ -19,17 +20,17 @@ a {
 
 #main_container {
     position: relative;
-    padding-top: 50px;
+    padding-top:100px;
 }
 
 #main_container .cs {
     position: relative;
     width: 1200px;
-    margin: 0px auto;
+    margin:0px auto;
 }
 
 .cs h2 {
-    margin: 100px auto;
+    margin: 100px auto ;
     width: 524px;
 }
 

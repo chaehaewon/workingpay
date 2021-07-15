@@ -17,26 +17,17 @@ body{ font-family:'Noto Sans KR', '맑은 고딕', sans-serif; font-size:14px; c
     scrollbar-width: none; /* Firefox */ }
 body::-webkit-scrollbar{ display:none; }
 /*#sect0>.myContent{ height:110px; }*/
+
 #section4>#footer{ height:230px; }
 #header{
-		position:fixed;
-		height: 50px;
-		display:block;
-		width: 100%;
-		z-index:9;
-		text-align:center;
-		color: #f2f2f2;
-		padding: 20px 0 0 0;
+		position:fixed; top:0px; height: 110px; z-index: 800; width:100%;
 	}
-#header{
-		top:0px;
-	}
-	#footer{
+/*	#footer{
 		bottom:0px;
-	}
+	}*/
 
 
-.section{ overflow:hidden; width:100%; height:auto; background-attachment: fixed; }
+.section{ overflow:hidden; width:100%; height:936px; background-attachment: fixed; }
 #section1{ position:relative; background:url("../image/service_info.jpg") no-repeat; background-size:cover; overflow:hidden; }
 .hand{ position:absolute; right:25px; bottom:0px; width:978px; height:780px;  animation:handMove 0.5s ease 0s;  }
 
@@ -69,19 +60,31 @@ body::-webkit-scrollbar{ display:none; }
     100%{ background-position:0px 2px; }
     
 }
-@keyframes arwM_m{
+@keyframes arwM_2{
      0%{ background-position:-35px -58px; }
     100%{ background-position:0px -58px; }
+}
+@keyframes arwM_3{
+     0%{ background-position:-35px -140px; }
+    100%{ background-position:0px -140px; }
 }
 
 
 /* section2,3 moreview hover color */
 #section2 .m_view a:hover { background:#fff; color:#55c5d0; }
-#section2 .m_view a:hover .arrow{ animation:arwM_m 0.4s ease 0s; background-position: 0px -58px; }
+#section2 .m_view a:hover .arrow{ animation:arwM_2 0.4s ease 0s; background-position: 0px -58px; }
+#section3 .m_view a:hover { background:#fff; color:#7059a6; }
+#section3 .m_view a:hover .arrow{ animation:arwM_3 0.4s ease 0s; background-position: 0px -140px; }
 
 
 #section2{ position:relative; overflow:hidden; background:url("../image/worker_service.jpg") no-repeat; background-size:cover;}
+#section2 .phone{ width:1920px; height:936px; overflow:hidden; }
 #section2 .m_view{ position:absolute; left:11%; bottom:28%;  }
+
+#section3{ position:relative; overflow:hidden; background:url("../image/manager_service.jpg") no-repeat; background-size:cover; }
+
+#section3 .m_view{ position:absolute; left:11%; bottom:20%;  }
+#section3 .web{ width:1080px; height:936px; overflow:hidden; position:absolute; right:0px; top:0px;}
 
 #fp-nav ul li .fp-tooltip.right{ color:#7059a6; }
 #fp-nav ul li a span, .fp-slidesNav ul li a span{ background:#5dc6cc; }

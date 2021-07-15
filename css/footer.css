@@ -40,11 +40,13 @@
 }
 
 #main_footer .footer_top .footer_logo {
-    /* background: url(../image/workingpaylogo_2.png) no-repeat; */
-    margin-top: -20px;
+    background: url(../image/workingpaylogo_2.png) no-repeat;
+    margin-top: 40px;
     float: left;
     width: 150px;
     height: 30px;
+    background-size: cover;
+    background-position: center;
 }
 
 #main_footer .footer_top .footer_logo img {

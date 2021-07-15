@@ -29,15 +29,13 @@ $(function () {
         }, 400);
         mouseoverstate = false;
     });
+
     $('#fullpage').fullpage({
-       /*  scrollOverflow: true,
-		scrollOverflowReset: true,*/
-        /* verticalCentered: false, */
+
         navigation: true,
 		navigationPosition: 'right',
-		/* navigationTooltips: ['service', 'worker service', 'manager service'],
-        css:false, */
-
+        navigationTooltips: ['service', 'worker service', 'manager service'],
+        /*scrollOverflow:true,*/
     });
-
+    
 });

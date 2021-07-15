@@ -9,26 +9,13 @@
     <link rel="stylesheet" href="css/personalInfo.css" type="text/css">
     <script src="../js/jquery-1.12.4.min.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
-
-    <!-- html include jQuery -->
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#header").load("../header.html")
-        });
+    <script src="js/personalInfo.js" type="text/javascript"></script>
+    <script>
+        includeHTML();
     </script>
-
-    <!-- html include jQuery  -->
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#footer").load("../footer.html")
-        });
-    </script>
-
    
 </head>
 
-<div id="header"></div>
 <body>
     <div id="main_container">
         <div class="tit_wrap">
@@ -254,7 +241,9 @@
     </div>
     <!-- <? include "footer.html" ?> -->
 </body>
+<div include-html="footer.html"></div>
+
+
 
 </html>
 
-<footer id="footer">
