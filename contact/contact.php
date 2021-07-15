@@ -56,7 +56,7 @@
             <?php 
                 if(isset($_REQUEST['submit'])) {
                     print_r($_REQUEST); // print_r(); 배열 내용 찍기 --> $_REQUEST == form 내용 파라미터 배열
-                    exit(); // 전송 눌렀을 때 파라미터 표시하고 정지 (뒤로가기로 돌아가)
+                    exit(); // 전송 눌렀을 때 파라미터 표시하고 정지
 
                     // 파라미터 name이랑 $_REQUEST['키'] 맞춰주기
                     $admin_email = "eeyore@workinglabs.kr"; //받는사람
