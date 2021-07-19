@@ -1,0 +1,9 @@
+{
+    "name": "eeyore/workingpay-1",
+    "autoload": {
+        "psr-4": {
+            "Eeyore\\Workingpay1\\": "src/"
+        }
+    },
+    "require": {}
+}

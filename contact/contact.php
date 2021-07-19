@@ -9,12 +9,13 @@
     $header .= "From: ". $kname ." <". $admin_email .">\r\n";
     $header .= "Reply-To: <". $admin_email .">\r\n";
 
+    
 
 
     $admin_email = "cgodnjs8@gmail.com"; //받는사람(수신자)
     $subject = $_POST['subject'] ?? ''; //문의유형(발신자)
     $kname = $_POST['kname']; //이름(발신자)
-    $email = $_POST['email']; //이메일(발신자)
+    $email = $_POST['email']; //이메일(발신자) 
     $contact = $_POST['contact']; //연락처(발신자)
     $bname = $_POST['bname'] ?? ''; //사업장명(발신자)
     $bnum = $_POST['bnum'] ?? ''; //사업장 번호(발신자)
